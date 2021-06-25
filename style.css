@@ -252,7 +252,7 @@ h3{
 .cta{
 	margin:100px auto;
 	width: 80%;
-	background-image:linear-gradient(rgba(0,0,0,0.7)),url(images/1salt.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.7)),url(../images/1salt.jpg);
 	background-position:center;
 	background-size: cover;
 	border-radius: 10px;
@@ -316,7 +316,7 @@ h3{
 .sub-header{
 	min-height: 50vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/chef.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/chef.jpg);
 	background-position:center;
 	background-size: cover;
 	text-align: center;
@@ -357,7 +357,7 @@ nav{
 	display: block;
 	margin: auto;
 	transition: 0.5s;
-}
+} --->
 .nav-links2 ul li:hover::after{
 	width: 100%;
 }
@@ -391,7 +391,20 @@ nav{
 	color: #fff;
 
 }
+.checked {
+	color: orange;
+}
 
+.col-md-3{
+	flex-basis: 31%;
+	background: #fff3f3;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	
+	padding: 20px 12px;
+	box-sizing: border-box;
+
+}
 /*----contact me----*/
 .location{
 	width: 80%;
@@ -407,7 +420,7 @@ nav{
 
 }
 .contact-col{
-	flex-basis: 48%;
+	flex-basis: 62%;
 	margin-bottom: 30px;
 }
 .contact-col div{
@@ -422,7 +435,7 @@ nav{
 	margin-right: 30px;
 
 }
-..contact-col div p{
+.contact-col div p{
 	padding: 0;
 }
 .contact-col div h5{
@@ -430,6 +443,7 @@ nav{
 	font-weight: 400;
 	margin-bottom: 5px;
 	color: #555;
+	text-align: center;
 }
 .contact-col input, .contact-col textarea{
 	width: 100%;
@@ -440,7 +454,10 @@ nav{
 	box-sizing: border-box;
 
 }
-
+#mc_embed_signup {
+	
+	align-content: center;
+}
 
 
 
