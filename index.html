@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with-device-width, initial-scale=1.0">
+	<title>Waridi's Pasta Recipes</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.11.1/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+				<div class="nav-links" id="navLinks">
+					<i class="fas fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="delights.html">TOP PASTA DELIGHTS</a></li>
+						<li><a href="cheese.html">JUST CHEESE</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fas fa-bars" onclick="showMenu()"></i>
+		</nav>
+	<div class="text-box">
+		<h1>A meal so good, it is pre-PASTA-rous</h1>
+		<p>There’s so many different types of pasta to make a toothsome delight. From macaroni, farfalle, fusili, to spaghetti, fettuccine, ravioli, <br>there’s a noodle for every pasta lover to enjoy.</p>
+		<a href="delights.html" class="hero-btn">CLICK TO LEARN MORE</a>
+	</div>
+
+
+	</section>
+
+	<!----Pasta Recipies---->
+	<section class="recipes">
+		<h1>Pasta Recipies</h1>
+		<p>You can create any pasta dish the way you want it but for Waridi, pasta is made in tree categories: simple, spicy and yes, sophisticated. Your pasta does not have to be as boring as life can get sometimes.</p>
+
+		<div class="row">
+			<div class="recipe-col">
+				<h3>Simple</h3>
+				<p>Starting from the sauce to the ingredients, all simple pasta dishes are designed to be eaten even by weaning babies. For those who love simplicity, you will enjoy these pasta recipes. Pasta is more than the spices and add-ons. It is what makes you smile in each bite.</p>
+			</div>
+
+			<div class="recipe-col">
+				<h3>Spicy</h3>
+				<p>Do you feel adventurous and want to try something that excites your toungue? Ranging from the tart taste of vinegar, creamy mayo, a chilled ranch dressing infused with pomegranate seeds and tens of other witty combinations to try, this category is perfect for you.</p>
+			</div>
+
+			<div class="recipe-col">
+				<h3>Sophisticated</h3>
+				<p>Need I say more? Cheese makes pasta sophisticated and for those who can handle the outburst of flavor then, let us go loco with cheese! Here, we do not leave anything on our plates so, be prepared.</p>
+			</div>
+
+		</div>
+		
+	</section>
+
+	<!----tips---->
+	<section class="tips">
+		<h1>The Perfect Pasta Tips</h1>
+		<p>The Do's and Dont's to the perfect pasta.</p>
+
+		<div class="row">
+			<div class="tips-col">
+				<img src="images/spices.jpg">
+				<div class="layer">
+					<h3>Don't Spice It Up</h3>
+				</div>
+			</div>
+
+			<div class="tips-col">
+				<img src="images/aldente.jpg">
+				<div class="layer">
+					<h3>Do It Al Dente</h3>
+				</div>
+			</div>
+
+			<div class="tips-col">
+				<img src="images/straight.jpg">
+				<div class="layer">
+					<h3>Don't break Into Half</h3>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<!-----Favourites----->
+	<section class="favourites">
+		<h1>Waridi's Favourites</h1>
+		<p>My two favourite dishes, motivated by the people I love the most</p>
+		<div class="row">
+			<div class="favourites-col">
+				<img src="images/papa.jpg">
+				<h3>Daddy's Delight</h3>
+				<p>Papa's introduction to spaghetti for me. I love it!</p>
+			</div>
+			<div class="favourites-col">
+				<img src="images/mom.jpg">
+				<h3>Mom's Inspiration</h3>
+				<p> Full of tricks and twists in this dish she showed me, mama, you are the best.</p>
+			</div>
+		</div>
+
+	</section>
+
+
+	<!----Call To Action--->
+	<section class="cta">
+		<h1>Contact Me For More Pasta Recipes And Tips</h1>
+		<a href="contact.html" class="contact-btn">CONTACT ME</a>
+		
+	</section>
+
+	<!----Footer--->
+	<section class="footer">
+		<h4>About Me</h4>
+		<p>I believe life is full of good people, adorable cats and yum-yum pasta.</p>
+		<div class="icons">
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<p>Caleno Made This.</p>
+		
+	</section>
+
+	<!----JavaScript for Toogle Menu---->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+
+	</script>
+
+</body>
+</html>
